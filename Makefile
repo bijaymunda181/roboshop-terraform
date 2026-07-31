@@ -7,3 +7,8 @@ prod:
 	rm -rf .terraform
 	terraform init -backend-config=env-prod/state.tfvars
 	terraform apply -auto-approve -var-file=env-prod/main.tfvars
+
+testing:
+	rm -rf .terraform
+	terraform init -backend-config=env-testing/state.tfvars
+	terraform apply -auto-approve -var-file=env-testing/main.tfvars
