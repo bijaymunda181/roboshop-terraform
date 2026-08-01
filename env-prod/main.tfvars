@@ -1,46 +1,45 @@
 components = {
-  default = {
-    frontend = {
-      name          = "frontend"
+    frontend  = {
+      name  = "frontend"
       instance_type = "t3.small"
     }
-    cart = {
-      name          = "cart"
+    cart  = {
+      name  = "cart"
       instance_type = "t3.small"
     }
-    mongodb = {
-      name          = "mongodb"
+    mongodb  = {
+      name  = "mongodb"
       instance_type = "t3.small"
     }
-    catalogue = {
-      name          = "catalogue"
+    catalogue  = {
+      name  = "catalogue"
       instance_type = "t3.small"
     }
-    user = {
-      name          = "user"
+    user  = {
+      name  = "user"
       instance_type = "t3.small"
     }
-    redis = {
-      name          = "redis"
+    redis  = {
+      name  = "redis"
       instance_type = "t3.small"
     }
-    mysql = {
-      name          = "mysql"
+    mysql  = {
+      name  = "mysql"
       instance_type = "t3.small"
     }
-    payment = {
-      name          = "payment"
+    payment  = {
+      name  = "payment"
       instance_type = "t3.small"
     }
-    shipping = {
-      name          = "shipping"
+    shipping  = {
+      name  = "shipping"
       instance_type = "t3.small"
     }
-    rabbitmq = {
-      name          = "rabbitmq"
+    rabbitmq  = {
+      name  = "rabbitmq"
       instance_type = "t3.small"
     }
   }
 
-  security_groups = ["sg-006b0a3a14f3ea5c8"]
-  zone_id = "Z03712302R94OP5ES9P27"
+security_groups = [ "sg-006b0a3a14f3ea5c8" ]
+zone_id = "Z03712302R94OP5ES9P27"
