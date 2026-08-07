@@ -1,45 +1,5 @@
-components = {
-    frontend  = {
-      name  = "frontend"
-      instance_type = "t3.small"
-    }
-    cart  = {
-      name  = "cart"
-      instance_type = "t3.small"
-    }
-    mongodb  = {
-      name  = "mongodb"
-      instance_type = "t3.small"
-    }
-    catalogue  = {
-      name  = "catalogue"
-      instance_type = "t3.small"
-    }
-    user  = {
-      name  = "user"
-      instance_type = "t3.small"
-    }
-    redis  = {
-      name  = "redis"
-      instance_type = "t3.small"
-    }
-    mysql  = {
-      name  = "mysql"
-      instance_type = "t3.small"
-    }
-    payment  = {
-      name  = "payment"
-      instance_type = "t3.small"
-    }
-    shipping  = {
-      name  = "shipping"
-      instance_type = "t3.small"
-    }
-    rabbitmq  = {
-      name  = "rabbitmq"
-      instance_type = "t3.small"
-    }
+vpc = {
+  main = {
+    cidr = "192.168.0.0/16"
   }
-
-security_groups = [ "sg-006b0a3a14f3ea5c8" ]
-zone_id = "Z03712302R94OP5ES9P27"
+}
