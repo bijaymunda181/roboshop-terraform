@@ -1,4 +1,4 @@
-module "components" {
+module "vpc" {
   source   = "git::https://github.com/bijaymunda181/tf-module-vpc.git"
 
   for_each = var.vpc
@@ -6,3 +6,6 @@ module "components" {
   subnets = each.value["subnets"]
 }
 
+output "vpc" {
+  value = module.vpc
+}
