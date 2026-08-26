@@ -33,4 +33,4 @@ tags = {
   created_by = "terraform"
 }
 
-env = "dev"
+env = dev
