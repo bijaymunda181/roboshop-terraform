@@ -23,6 +23,7 @@ module "alb" {
   tags                        = var.tags
   env                         = var.env
   sg_port                     = each.value["sg_port"]
+  name                        = "${var.env}-${each.key}-alb"
 }
 
 
