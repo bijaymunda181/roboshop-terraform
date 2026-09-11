@@ -23,7 +23,7 @@ vpc = {
 
 default_vpc_id = "vpc-06d354875b93e87ba"
 default_vpc_cidr = "172.31.0.0/16"
-default_vpc_route_table_id = "rtb-06d60bf34e0e6a659"
+default_vpc_route_table_id = "rtb-0b7a0716a80dc3f9b"
 
 tags = {
   company_name = "ABC Tech"
