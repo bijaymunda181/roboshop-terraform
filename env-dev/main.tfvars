@@ -4,26 +4,26 @@ vpc = {
 
     subnets = {
       public = {
-        public1 = { cidr = "10.0.0.0/24", az = "ap-south-1a" }
-        public2 = { cidr = "10.0.1.0/24", az = "ap-south-1b" }
+        public1 = { cidr = "10.0.0.0/24", az = "us-east-1a" }
+        public2 = { cidr = "10.0.1.0/24", az = "us-east-1b" }
       }
 
       app = {
-        app1 = { cidr = "10.0.2.0/24", az = "ap-south-1a" }
-        app2 = { cidr = "10.0.3.0/24", az = "ap-south-1b" }
+        app1 = { cidr = "10.0.2.0/24", az = "us-east-1a" }
+        app2 = { cidr = "10.0.3.0/24", az = "us-east-1b" }
       }
 
       db = {
-        db1 = { cidr = "10.0.4.0/24", az = "ap-south-1a" }
-        db2 = { cidr = "10.0.5.0/24", az = "ap-south-1b" }
+        db1 = { cidr = "10.0.4.0/24", az = "us-east-1a" }
+        db2 = { cidr = "10.0.5.0/24", az = "us-east-1b" }
       }
     }
   }
 }
 
-default_vpc_id = "vpc-06d354875b93e87ba"
+default_vpc_id = "vpc-0b8599cb522da7269"
 default_vpc_cidr = "172.31.0.0/16"
-default_vpc_route_table_id = "rtb-0b7a0716a80dc3f9b"
+default_vpc_route_table_id = "rtb-06d60bf34e0e6a659"
 
 tags = {
   company_name = "ABC Tech"
